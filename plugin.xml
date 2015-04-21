@@ -18,7 +18,7 @@
         <config-file target="config.xml" parent="/widget">
           <preference name="StatusBarOverlaysWebView" value="false" />
           <preference name="StatusBarBackgroundColor" value="#000000" />
-          <preference name="StatusBarStyle" value="#lightcontent" />
+          <preference name="StatusBarStyle" value="lightcontent" />
         </config-file>        
     </platform>
 </plugin>
