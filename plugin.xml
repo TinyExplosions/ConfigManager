@@ -16,9 +16,9 @@
     <platform name="ios">
         <!-- feature tag in config.xml -->
         <config-file target="config.xml" parent="/widget">
-          <preference name="StatusBarOverlaysWebView" value="false" />
-          <preference name="StatusBarBackgroundColor" value="#000000" />
-          <preference name="StatusBarStyle" value="lightcontent" />
+          <preference name="StatusBarOverlaysWebView" value="com.tinyexplosions.status_bar_overlays_web_view" />
+          <preference name="StatusBarBackgroundColor" value="com.tinyexplosions.status_bar_background_color" />
+          <preference name="StatusBarStyle" value="com.tinyexplosions.status_bar_style" />
         </config-file>        
     </platform>
 </plugin>
