@@ -12,10 +12,11 @@
         <engine name="cordova" version=">=2.2.0" />
     </engines>
     
+    <asset src="files/Entitlements.plist" target="Entitlements.plist" />
     <!-- this needs to be added to the .plist file-->
     <platform name="ios">
 
-      <hook type="after_plugin_install" src="hooks/install_entitlements_plist.js" />
+      <!-- <hook type="after_plugin_install" src="hooks/install_entitlements_plist.js" /> -->
 
     </platform>
 </plugin>
