@@ -22,7 +22,7 @@ if (rootdir) {
     // with the names of the files that contain tokens you want replaced.  Replace files that have been copied via the prepare step.
     var filestoreplace = [
         // ios
-        "platforms/ios/www/index.html",
+        "www/index.html",
     ];
     filestoreplace.forEach(function(val, index, array) {
         var fullfilename = path.join(rootdir, val);
