@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="com.tinyexplosions.cordova.plugin.ConfigManager"
-    version="1.0.0">
+    version="1.1.0">
 
     <name>Config Manager Plugin for Cordova iOS</name>
     <description>This plugin adds some entries to config.xml to allow changes to be made in FeedHenry Cordova Light apps.</description>
@@ -12,13 +12,10 @@
         <engine name="cordova" version=">=2.2.0" />
     </engines>
     
-    <!-- ios -->
+    <!-- this needs to be added to the .plist file-->
     <platform name="ios">
-        <!-- feature tag in config.xml -->
-        <config-file target="config.xml" parent="/widget">
-          <preference name="StatusBarOverlaysWebView" value="com.tinyexplosions.status_bar_overlays_web_view" />
-          <preference name="StatusBarBackgroundColor" value="com.tinyexplosions.status_bar_background_color" />
-          <preference name="StatusBarStyle" value="com.tinyexplosions.status_bar_style" />
-        </config-file>        
+
+      <hook type="after_plugin_install" src="hooks/install_entitlements_plist.js" />
+
     </platform>
 </plugin>
