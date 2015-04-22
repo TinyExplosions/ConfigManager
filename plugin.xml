@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="com.tinyexplosions.cordova.plugin.ConfigManager"
-    version="1.1.0">
+    version="1.1.1">
 
     <name>Config Manager Plugin for Cordova iOS</name>
     <description>This plugin adds some entries to config.xml to allow changes to be made in FeedHenry Cordova Light apps.</description>
