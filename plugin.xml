@@ -12,7 +12,7 @@
         <engine name="cordova" version=">=2.2.0" />
     </engines>
     
-    <asset src="files/Entitlements.plist" target="Entitlements.plist" />
+    <asset src="www/test.js" target="plugins/test.js" />
     <!-- this needs to be added to the .plist file-->
     <platform name="ios">
 
